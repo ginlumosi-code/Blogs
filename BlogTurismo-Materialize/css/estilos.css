@@ -1,0 +1,40 @@
+body {
+  background-image: url("../img/background.jpg");
+  background-attachment: fixed;
+  font-family: 'Libre Baskerville', serif;
+}
+.logo {
+  margin: 10px;
+}
+h1 {
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+h1, h2 {
+  text-shadow: 2px 2px grey;
+}
+h3 {
+  color: navy;
+}
+svg {
+  padding-bottom: 20px;
+}
+.sectionSec {
+  text-align: justify;
+}
+span {
+  font-weight: bold;
+}
+.autor {
+  border-radius: 10px;
+}
+.autor > p {
+  border-top: 1px solid navy;
+  padding-top: 10px;
+}
+.card {
+  padding: 20px;
+}
+.card-image {
+  margin: 15px 15px 15px 0;
+}

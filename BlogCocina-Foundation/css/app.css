@@ -1,0 +1,87 @@
+body {
+  background-image: url("../img/background.jpg");
+  background-attachment: fixed;
+  font-family: cursive;
+}
+.container {
+  background-color: rgb(0,0,128,0.7);
+  padding: 20px;
+}
+header {
+  color: #FFF;
+  width: 100%;
+  border-bottom: 1px solid rgb(128,0,128);
+  margin-bottom: 10px;
+}
+h1, h4 {
+  font-family: 'Playball', cursive;
+}
+h2, .search {
+  font-family: 'Great Vibes', cursive;
+}
+h5 {
+  font-family: cursive;
+}
+.sectionleft {
+  background-color: rgb(128,0,128,0.8);
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px 10px 0 10px;
+  height: 700px;
+}
+.btn1 {
+  background-color: #F5A9F2;
+}
+li {
+  list-style: none;
+}
+a {
+  color: white;
+}
+.menu > li {
+  border: 1px solid white;
+  font-weight: bold;
+}
+.menu > li > a:hover {
+  background-color: #F5A9F2;
+  color: rgb(0,0,128);
+}
+.gallery {
+  padding: 10px;
+}
+.search > li {
+  font-size: 1.3rem;
+}
+.recipe {
+  background-color: #F5A9F2;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.recipe > span {
+  color: rgb(128,0,128);
+}
+.recipe > img {
+  margin-top: 10px;
+  width: 100%;
+}
+.recipe > label {
+  border-top: 1px solid rgb(128,0,128);
+  padding-top: 20px;
+}
+.user {
+  border-radius: 100%;
+  width: 70%;
+  opacity: 0.6;
+  border: 1px solid grey;
+}
+p > span {
+  font-weight: bold;
+}
+.comm {
+  color: grey;
+  border-top: 1px dashed grey;
+  padding-top: 5px;
+}
+.btn2 {
+  background-color: rgb(128,0,128, 0.8);
+}
